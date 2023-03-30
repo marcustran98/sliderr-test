@@ -1,0 +1,11 @@
+{
+    "name": "sliderrrr",
+    "version": "1.0.2",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/marcustran98/sliderr-test.git"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+    }
+}

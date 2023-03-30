@@ -1,12 +1,15 @@
+const path = require('path');
+
 module.exports = {
     entry: './src/index.ts',
     output: {
-        path: PATHS.build,
-        filename: '[name].js',
+        path: path.resolve(__dirname, "dist"),
+        filename: "app.js",
+        clean: true
     },
     devtool: "source-map",
     module: {
-        loaders: [
+        rules: [
             {
                 test: /\.ts$/,
                 loader: 'ts-loader'
