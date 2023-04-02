@@ -1,12 +1,12 @@
 {
   "name": "sliderrrr",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "",
-  "main": "src/index.ts",
+  "main": "app.js",
   "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rm -rf dist && webpack build && cp package-publish.json dist/package.json"
+    "build": "rm -rf dist && webpack build && cp package.json dist/"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,9 @@
     "swiper": "^9.1.1"
   },
   "devDependencies": {
+    "css-loader": "^6.7.3",
+    "sass-loader": "^13.2.2",
+    "style-loader": "^3.3.2",
     "ts-loader": "^9.4.2",
     "webpack": "^5.77.0",
     "webpack-cli": "^5.0.1",

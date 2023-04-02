@@ -14,6 +14,14 @@ module.exports = {
                 test: /\.ts$/,
                 loader: 'ts-loader'
             },
+            {
+                test: /\.s[ac]ss$/,
+                use: ['style-loader', 'css-loader', 'sass-loader'],
+            },
+            {
+                test: /\.css$/,
+                use: ['css-loader'],
+            },
         ]
     },
 

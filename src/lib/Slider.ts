@@ -12,7 +12,6 @@ import {
     SliderOptions,
 } from './Slider.type';
 
-import "swiper/swiper.css";
 
 export default class Slider {
     private $element!: HTMLElement;
